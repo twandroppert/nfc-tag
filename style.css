@@ -1,0 +1,76 @@
+/* Algemene instellingen */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f6f9;
+    color: #333;
+}
+
+/* Container om alles netjes in het midden te houden */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header opmaak */
+header {
+    background-color: #0066cc;
+    color: #ffffff;
+    padding: 40px 0;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.1rem;
+    opacity: 0.9;
+}
+
+/* Card/Blokken opmaak voor de tekst */
+.card {
+    background-color: #ffffff;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.card h2 {
+    color: #0066cc;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #eef2f5;
+    padding-bottom: 5px;
+}
+
+.card p {
+    margin-bottom: 15px;
+}
+
+.card ul {
+    margin-left: 20px;
+}
+
+.card li {
+    margin-bottom: 8px;
+}
+
+/* Footer opmaak */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    color: #666;
+    font-size: 0.9rem;
+    margin-top: 40px;
+}
