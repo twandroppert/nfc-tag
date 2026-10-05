@@ -23,9 +23,7 @@
         <section class="card">
             <h2>Wat is een NFC tag?</h2>
             <p>
-                Een NFC (Near Field Communication) tag is een kleine, draadloze chip zonder batterij. 
-                Wanneer je een smartphone of een ander NFC-apparaat dicht bij de tag houdt (binnen een paar centimeter), 
-                wordt de informatie op de tag uitgelezen of uitgevoerd.
+                Een NFC (Near Field Communication) tag is een kleine, passieve draadloze chip gecombineerd met een dunne antenne-spoel. Omdat een NFC-tag geen eigen batterij of stroomvoorziening heeft, blijft hij onbeperkt functioneren zonder op te laden. Zodra je een smartphone of ander NFC-apparaat dicht bij de tag houdt (binnen een straal van circa 1 tot 4 centimeter), zendt de lezer een licht magnetisch veld uit. Dit veld wekt via elektromagnetische inductie direct genoeg stroom op om de chip te activeren, waarna de opgeslagen gegevens — zoals een web-link, contactkaart, Wi-Fi-netwerk of automatiseringscommando — razendsnel worden uitgelezen of uitgevoerd.
             </p>
         </section>
 
@@ -33,9 +31,8 @@
         <section class="card">
             <h2>Hoe werkt een NFC tag?</h2>
             <p>
+                 Een passieve NFC-tag (Near Field Communication) heeft inderdaad geen eigen stroombron nodig. Het proces verloopt stapsgewijs via elektromagnetische principes:</li>
                 <ul>
-               <li> Een passieve NFC-tag (Near Field Communication) heeft inderdaad geen eigen stroombron nodig. Het proces verloopt stapsgewijs via elektromagnetische principes:</li>
-
                 <li>Elektromagnetische Inductie: De NFC-lezer (zoals een smartphone) zendt een wisselend elektromagnetisch veld uit op een radiofrequentie van 13,56 MHz.</li>
 
                 <li>Energie-overdracht: Zodra de NFC-tag dicht genoeg in de buurt komt (meestal binnen 4 centimeter), stroomt dit magnetische veld door de antenne-spoel in de tag. Door inductie wekt dit veld een heel klein elektrisch stroompje op in de antenne.</li>
@@ -57,13 +54,24 @@
             <h2>Waar kun je NFC tags voor gebruiken?</h2>
             <p>NFC tags worden voor ontzettend veel slimme oplossingen gebruikt. Denk aan:</p>
             <ul>
-                <li><strong>Snel verbinding maken met Wi-Fi:</strong> Laat gasten hun telefoon tegen de tag houden om direct in te loggen.</li>
-                <li><strong>Visitekaartjes:</strong> Deel direct je contactgegevens, website of sociale media.</li>
+                <strong>Snel verbinding maken met Wi-Fi:</strong><li>Je programmeert de netwerknaam (SSID) en het wachtwoord van je Wi-Fi-netwerk eenmalig op de NFC-tag. Wanneer bezoekers of gasten hun smartphone tegen de tag houden, herkent de telefoon de netwerkgegevens en verschijnt er direct een melding om verbinding te maken.</li>
+
+                <li><strong>Voordelen:</strong> Geen gedoe meer met spelfouten, het is uiterst gastvrij en gasten hoeven niet meer op de onderkant van je router te kijken voor het wachtwoord. </li>
+                <strong>Visitekaartjes:</strong> <li>Deel direct je contactgegevens, website of sociale media.</li>
                 <li><strong>Smart Home automatisering:</strong> Zet bij het slapengaan je telefoon op 'Niet storen' en doe de lichten uit door één tik.</li>
                 <li><strong>Contactloos betalen:</strong> De bekende technologie achter pinnen met je telefoon of bankpas.</li>
             </ul>
         </section>
+       
+       <!-- wat waren wij origineel van plan-->
+        <section class="card">
+            <h2>Programeren van NFC-chip.</h2>
+            <p>We hebben geprobeerd om de NFC-chip meer te laten doen dan alleen tekst opslaan. Het is ons namelijk al gelukt om een stuk code vanuit Visual Studio Code op de NFC-chip te zetten met behulp van NFC Tools. Wanneer de chip wordt uitgelezen, kan deze tekst laten zien. We wilden echter een stap verder gaan en ervoor zorgen dat de NFC-chip door middel van onze code ook bepaalde acties zou uitvoeren.</p>
 
+            <p>Om dit voor elkaar te krijgen hebben we verschillende mogelijkheden geprobeerd. We hebben gekeken naar NFC Tools, geprobeerd om met Kotlin te werken en veel informatie opgezocht via Google en YouTube. Ook hebben we AI gebruikt om uitleg te krijgen over hoe we de NFC-chip met code bepaalde acties konden laten uitvoeren. Ondanks deze verschillende pogingen is het ons uiteindelijk niet gelukt om dit werkend te krijgen.</p>
+
+            <p>Het is dus wel gelukt om zelf geschreven tekst op de NFC-chip te zetten, maar het is niet gelukt om de chip met onze eigen code daadwerkelijk meer acties te laten uitvoeren. We hebben hierdoor wel verschillende manieren onderzocht om NFC te programmeren en zijn meer te weten gekomen over de mogelijkheden en beperkingen van onze NFC-chip.</p>
+        </section>
     </main>
 
     <!-- Footer / Onderzijde van de pagina -->
